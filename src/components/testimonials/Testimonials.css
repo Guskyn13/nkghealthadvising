@@ -1,13 +1,13 @@
 .testMainContainer {
     height: 400px;
-    background: rgb(116, 122, 122);
+    /* background: rgb(116, 122, 122); */
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     font-family: 'Uchen', serif;
 }
 
 .testimonialTitle {
     font-size: 2rem;
-    background-color: rgb(116, 122, 122);
+    /* background-color: rgb(116, 122, 122); */
 }

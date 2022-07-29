@@ -1,7 +1,6 @@
 .questionMainContainer {
-    height: 350px;
+    height: 250px;
     width: 100%;
-    /* background-color: #4b0082; */
     background-image: url("../../images/67278.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -11,8 +10,8 @@
 }
 
 .questionWhiteContainer {
-    width: 650px;
-    height: 200px;
+    width: 500px;
+    height: 150px;
     background-color: #e3e3e3;
     margin-left: 15%;
 }
