@@ -54,3 +54,36 @@ span {
     font-size: 1.35rem;
     font-weight: 600;
 }
+
+@media screen and (max-width: 1300px) {
+    .heroMainContainer {
+        height: calc(100vh - 75px);
+    }
+    .profilePicContainer {
+        height: 400px;
+        width: 400px;
+        margin: 0 75px;
+    }
+    
+    .profilePic {
+        height: 375px;
+        border-radius: 25px;
+    }
+    .companyName {
+        width: 500px;
+    }
+    .initials {
+        height: 75px;
+    }
+    .comapanyTitle {
+        font-size: 2.5rem;
+    }
+    .companyDesc {
+        line-height: 1.75;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    span {
+        font-size: 4rem;
+    }
+}

@@ -41,3 +41,27 @@
     text-align: center;
     font-size: 1.2rem;
 }
+
+@media screen and (max-width: 1300px) {
+    .helpMainContainer {
+        height: 450px;
+    }
+    .helpTitle {
+        height: 75px;
+        font-size: 1.5rem;
+    }
+    .helpingIcons {
+        height: 300px;
+    }
+    .helpingText {
+        width: 200px;
+        height: 200px;
+        border: none;
+    }
+    .helpingTitle {
+        font-size: 1.5rem;
+    }
+    .helpingDesc {
+        font-size: 1rem;
+    }
+}

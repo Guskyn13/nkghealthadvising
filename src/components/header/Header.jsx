@@ -8,7 +8,6 @@ const Header = () => {
 
   const navLinkStyle = ({ isActive }) => {
     return {
-      // fontWeight: isActive ? "bold" : "normal",
       textDecoration: isActive ? "underline" : "none",
       color: isActive ? "#4b0082" : "#000",
       fontWeight: "bold",
