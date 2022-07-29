@@ -1,0 +1,54 @@
+.main-container {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Uchen', serif;
+}
+
+.logoContainer {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    background: transparent;
+}
+
+.listContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 33.3%;
+    text-decoration: none;
+}
+
+.navLink {
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+}
+
+li {
+    list-style: none;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.linksContainer {
+    display: flex;
+    justify-content: center;
+    width: 33.3%;
+}
+
+.link {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: #000;
+}

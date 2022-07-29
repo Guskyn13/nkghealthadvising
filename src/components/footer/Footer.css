@@ -1,0 +1,12 @@
+.footerContainer {
+    border-top: 1px #000 solid;
+    margin: 0 125px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerLogo {
+    width: 100px;
+}

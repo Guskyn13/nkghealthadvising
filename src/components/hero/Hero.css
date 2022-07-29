@@ -1,0 +1,56 @@
+.heroMainContainer {
+    height: calc(100vh - 100px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Uchen', serif;
+}
+
+.profilePicContainer {
+    height: 575px;
+    width: 575px;
+    background-image: url("../../images/67278.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 75px;
+}
+
+.profilePic {
+    height: 550px;
+    border-radius: 25px;
+}
+
+.companyName {
+    height: 300px;
+    width: 700px;
+    text-transform: uppercase;
+}
+
+.initials {
+    height: 100px;
+}
+
+.comapanyTitle {
+    background: none;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #000;
+}
+
+span {
+    color: #4b0082;
+    font-size: 5rem;
+}
+
+.companyDesc {
+    line-height: 1.75;
+    font-size: 1.35rem;
+    font-weight: 600;
+}
