@@ -1,14 +1,13 @@
 import React from 'react'
 import './Header.css'
 import { FaFacebookSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
-import Logo from '../../images/Logo No BCKG.png'
+import Logo from '../../images/Logo2NB.png'
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 
   const navLinkStyle = ({ isActive }) => {
     return {
-      // fontWeight: isActive ? "bold" : "normal",
       textDecoration: isActive ? "underline" : "none",
       color: isActive ? "#4b0082" : "#000",
       fontWeight: "bold",

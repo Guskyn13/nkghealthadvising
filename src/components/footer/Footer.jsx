@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Logo from '../../images/Logo No BCKG.png'
+import Logo from '../../images/Logo2NB.png'
 import { FaRegCopyright } from 'react-icons/fa'
 
 const Footer = () => {
