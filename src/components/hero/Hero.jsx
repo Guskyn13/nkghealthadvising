@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="companyName">
           <div className="initials">
             <p className="comapanyTitle">
-              <span>NKG</span>Health Advising
+              <span className="companyInitials">NKG</span>Health Advising
             </p>
           </div>
           <br />
