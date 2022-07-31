@@ -1,13 +1,13 @@
 .gitMainContainer {
     width: 100%;
-    height: 600px;
+    height: 750px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-family: 'Uchen', serif;
 }
 .gitContainer {
-    width: 75%;
+    width: 70%;
     height: 600px;
     display: flex;
     align-items: center;
@@ -18,13 +18,93 @@
     height: 500px;
     width: 400px;
     overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
 }
 
 .containerRightSide {
     height: 500px;
     width: 400px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.rightSideTitle {
+    color: #28004d;
+    font-size: 2.3rem;
+    background: none;
+    font-weight: 800;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.rightSideDesc {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    background: none;
+}
+
+.rightSideInfo {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+    background: none;
+}
+
+.rightSideDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+    line-height: 1;
+    background-color: #fff;
+}
+
+.rightSideIcon {
+    display: flex;
+    color: #28004d;
+    font-size: 1.6rem;
+    background-color: #fff;
+}
+
+.icon {
+    background: none;
+}
+
+.rightSideText {
+    padding-left: 15px;
+    border: none;
+    font-family: 'Uchen', serif;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.rightSidePhone {
+    padding-left: 15px;
+    border: none;
+    font-family: 'Uchen', serif;
+    font-size: 1.3rem;
+    background-color: #fff;
+}
+
+.rightSideLinks {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.3rem;
+    font-size: 2rem;
+    color: #28004d;
+    background-color: #fff;
 }
 
 @media screen and (max-width: 1300px) {

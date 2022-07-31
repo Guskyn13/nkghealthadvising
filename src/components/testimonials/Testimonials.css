@@ -1,13 +1,14 @@
 .testMainContainer {
     height: 400px;
-    /* background: rgb(116, 122, 122); */
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     font-family: 'Uchen', serif;
+    margin-top: 50px;
 }
 
 .testimonialTitle {
     font-size: 2rem;
-    /* background-color: rgb(116, 122, 122); */
+    background: none;
+    color: #28004d;
+    padding-top: 3rem;
 }

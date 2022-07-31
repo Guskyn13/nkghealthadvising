@@ -9,14 +9,26 @@ const Header = () => {
   const navLinkStyle = ({ isActive }) => {
     return {
       textDecoration: isActive ? "underline" : "none",
-      color: isActive ? "#4b0082" : "#000",
+      color: isActive ? "#28004d" : "#000",
       fontWeight: "bold",
       fontSize: '1.5rem',
     }
   }
 
+  let prevScrollPos = window.pageYOffset;
+
+  window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollPos > currentScrollPos) {
+      document.getElementById("navBar").style.top = "0";
+    } else {
+      document.getElementById("navBar").style.top = "-200px";
+    } 
+    prevScrollPos = currentScrollPos;
+  }
+
   return (
-    <div className='main-container'>
+    <div className='main-container' id='navBar'>
         <div className='logoContainer'>
             <img src={Logo} alt="Logo" className='logo' />
         </div>

@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <div className="testMainContainer">
       <div className="testimonialTitle">
-        Testimonials
+        <h3>Here's What They Have To Say</h3>
       </div>
     </div>
   );

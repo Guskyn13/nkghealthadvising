@@ -1,10 +1,11 @@
 .heroMainContainer {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 50px);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Uchen', serif;
+    padding-top: 8rem;
 }
 
 .profilePicContainer {
@@ -45,7 +46,7 @@
 }
 
 span {
-    color: #4b0082;
+    color: #28004d;
     font-size: 5rem;
 }
 
