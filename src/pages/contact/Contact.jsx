@@ -3,6 +3,7 @@ import "./Contact.css";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { MdPhonelinkRing } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
 import { motion } from "framer-motion";
@@ -73,14 +74,15 @@ const Contact = () => {
                   <span className="contactListPhone">850.556.3452</span>
                 </li>
               </ul>
-
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
             </div>
+
+            <ul className="contactLinks">
+              <li>
+                <a href="https://www.linkedin.com/in/nathankgusky/">
+                  <FaLinkedin className="contactLinkIcons" />
+                </a>
+              </li>
+            </ul>
           </div>
 
           <div className="contactForm">
@@ -132,7 +134,9 @@ const Contact = () => {
                 <span>Write your message here...</span>
               </div>
               <div className="contactInputBox">
-                <button onClick={submit} className="contactButton">Send</button>
+                <button onClick={submit} className="contactButton">
+                  Send
+                </button>
                 <div className="contactEmailSent">
                   <span className={emailSent ? "visible" : "notVisible"}>
                     Thank you for your message, we will be in touch shourtly

@@ -25,7 +25,7 @@ section::before {
     top: 40px;
     width: 350px;
     height: calc(100% - 80px);
-    background: #28004d;
+    background-color: #28004d;
     z-index: 1;
     padding: 30px;
     display: flex;
@@ -73,6 +73,21 @@ section::before {
 .contactListPhone {
     background: #28004d;
     font-size: 1rem;
+    color: #e3e3e3;
+}
+.contactLinks {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #28004d;
+}
+.contactLinks li,
+.contactLinks a {
+    background-color: #28004d;
+}
+.contactLinkIcons {
+    font-size: 2rem;
+    background-color: #28004d;
     color: #e3e3e3;
 }
 .contactForm {

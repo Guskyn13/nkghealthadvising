@@ -24,10 +24,10 @@ const Help = () => {
               <span className="helpingCardTitle">Buisness Owners</span>
               <br />
               <br />
-              rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt
-              lobortis feugiat vivamus at augue eget arcu dictum varius duis at
-              consectetur lorem donec massa sapien faucibus et molestie ac
-              feugiat sed
+              Already have enough on your plate? Some things you dont think
+              about when starting a small buisness, health insurance being one
+              of those. Let's make sure you take of your employees with
+              affordable plans and even better coverage.
             </div>
           </div>
         </div>
@@ -43,9 +43,9 @@ const Help = () => {
               <span className="helpingCardTitle">Self Employed</span>
               <br />
               <br />
-              rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt
-              lobortis feugiat vivamus at augue eget arcu dictum varius duis at
-              consectetur lorem donec massa sapien
+              Been working for yourself without coverage? Leaving your corporate
+              job to not have to work for someone else? We can help you find the
+              right coverage for your personal needs in any job you work.
             </div>
           </div>
         </div>
@@ -61,10 +61,10 @@ const Help = () => {
               <span className="helpingCardTitle">Family Members</span>
               <br />
               <br />
-              rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt
-              lobortis feugiat vivamus at augue eget arcu dictum varius duis at
-              consectetur lorem donec massa sapien faucibus et molestie ac
-              feugiat sed
+              Planning for the unexpected is difficult. Adding family to work
+              plans is even more difficult and sometimes too expensive. Let's
+              converse and get everyone covered, we have a great chance of
+              finding that plan that works for you.
             </div>
           </div>
         </div>
@@ -76,10 +76,8 @@ const Help = () => {
               <span className="helpingCardTitle">Everyone</span>
               <br />
               <br />
-              rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt
-              lobortis feugiat vivamus at augue eget arcu dictum varius duis at
-              consectetur lorem donec massa sapien faucibus et molestie ac
-              feugiat sed
+              You could be retired, maybe between jobs. We have the possibility
+              of making sure everyone is covered.
             </div>
           </div>
         </div>
