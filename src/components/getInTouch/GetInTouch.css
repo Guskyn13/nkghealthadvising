@@ -108,13 +108,51 @@
 }
 
 @media screen and (max-width: 1300px) {
-    .containerLeftSide {
-        height: 450px;
-        width: 350px;
+    .gitMainContainer {
+        height: 600px;
     }
-    
+    .gitContainer {
+        width: 80%;
+    }
+    .containerLeftSide {
+        height: 400px;
+        width: 300px;
+    }
     .containerRightSide {
-        height: 450px;
-        width: 350px;
+        height: 400px;
+        width: 300px;
+    }
+    .rightSideTitle {
+        font-size: 1.5rem;
+        font-weight: 800;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .rightSideDesc {
+        line-height: 1.2;
+        font-size: 1.1rem;
+        padding-bottom: 0.5rem;
+    }
+    .rightSideInfo {
+        line-height: 1.2;
+        font-size: 1.1rem;
+        padding-bottom: 0.5rem;
+    }
+    .rightSideDetails {
+        font-size: 1.1rem;
+    }
+    .rightSideIcon {
+        font-size: 1.3rem;
+    }
+    .rightSideText {
+        font-size: 1.1rem;
+    }
+    .rightSidePhone {
+        font-size: 1.1rem;
+    }
+    .rightSideLinks {
+        width: 50%;
+        padding-top: 0.75rem;
+        font-size: 1.75rem;
     }
 }

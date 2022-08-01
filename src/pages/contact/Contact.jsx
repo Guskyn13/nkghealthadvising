@@ -6,7 +6,7 @@ import { MdPhonelinkRing } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion'
 
 const Contact = () => {
   const [firstName, setFirstName] = useState("");

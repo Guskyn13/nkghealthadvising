@@ -85,12 +85,20 @@
 
 @media screen and (max-width: 1300px) {
     .questionMainContainer {
-        height: 175px;
+        height: 200px;
     }
     .questionWhiteContainer {
-        width: 300px;
-        height: 100px;
-        background-color: #e3e3e3;
-        margin-left: 15%;
+        width: 350px;
+        height: 150px;
+    } 
+    .questionTitle {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .questionInfo {
+        font-size: 1rem;
+    }    
+    .questionText {
+        font-size: 1.15rem;
     }
 }

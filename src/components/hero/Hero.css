@@ -15,7 +15,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 25px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@
 
 .profilePic {
     height: 550px;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .companyName {
@@ -57,21 +57,16 @@
 }
 
 @media screen and (max-width: 1300px) {
-    .heroMainContainer {
-        height: calc(100vh - 75px);
-    }
     .profilePicContainer {
-        height: 400px;
-        width: 400px;
-        margin: 0 75px;
-    }
-    
-    .profilePic {
         height: 375px;
-        border-radius: 25px;
+        width: 375px;
+    }
+    .profilePic {
+        height: 350px;
     }
     .companyName {
-        width: 500px;
+        width: 425px;
+        text-transform: none;
     }
     .initials {
         height: 75px;
@@ -79,12 +74,11 @@
     .comapanyTitle {
         font-size: 2.5rem;
     }
-    .companyDesc {
-        line-height: 1.75;
-        font-size: 1.1rem;
-        font-weight: 600;
-    }
-    span {
+    .companyInitials {
         font-size: 4rem;
+    }
+    .companyDesc {
+        line-height: 1.5;
+        font-size: 1.3rem;
     }
 }

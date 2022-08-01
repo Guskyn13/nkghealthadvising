@@ -6,18 +6,20 @@ import Home from '../../pages/home/Home';
 // import Services from '../../pages/services/Services';
 import Contact from '../../pages/contact/Contact';
 
-import { AnimatePresence, useScroll, motion } from 'framer-motion'
+import { AnimatePresence, 
+  // useScroll, 
+  motion } from 'framer-motion';
 
-const AnimatedRoutes = () => {
+function AnimatedRoutes() {
     const location = useLocation();
-    const { scrollYProgress } = useScroll();
+    // const { scrollYProgress } = useScroll();
 
   return (
     <AnimatePresence>
-      <motion.div
+      {/* <motion.div
         className="progress-bar"
         style={{ scaleX: scrollYProgress }}
-      />
+      /> */}
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           {/* <Route path="/about" element={<About />} /> */}
@@ -28,4 +30,4 @@ const AnimatedRoutes = () => {
   )
 }
 
-export default AnimatedRoutes
+export default AnimatedRoutes;

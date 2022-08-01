@@ -39,8 +39,8 @@ const Header = () => {
             <NavLink className='navLink' style={navLinkStyle} to="/contact">Contact</NavLink>
         </div>
         <div className='linksContainer'>
-            {/* <a href="www.facbook.com" className='link'><FaFacebookSquare /></a> */}
-            {/* <a href="www.instagram.com" className='link'><FaInstagramSquare /></a> */}
+            <a href="www.facbook.com" className='link'><FaFacebookSquare /></a>
+            <a href="www.instagram.com" className='link'><FaInstagramSquare /></a>
             <a href="https://www.linkedin.com/in/nathankgusky/" className='link'><FaLinkedin /></a>
         </div>
     </div>

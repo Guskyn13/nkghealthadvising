@@ -6,7 +6,7 @@ import Hero from "../../components/hero/Hero";
 import Questions from "../../components/questions/Questions";
 // import Testimonials from "../../components/testimonials/Testimonials";
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion'
 
 const Home = () => {
 
