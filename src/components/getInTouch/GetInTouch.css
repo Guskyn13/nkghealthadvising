@@ -156,3 +156,14 @@
         font-size: 1.75rem;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .gitMainContainer {
+        height: 800px;
+        /* padding-top: 10rem; */
+    }
+    .gitContainer {
+        flex-direction: column-reverse;
+        background-color: aqua;
+    }
+}

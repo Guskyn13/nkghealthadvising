@@ -11,8 +11,20 @@
     width: 100px;
 }
 
+@media screen and (max-width: 1525px) {
+    .footerContainer {
+        margin: 0 75px;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     .footerLogo {
         width: 75px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footerContainer {
+        /* width: 100%; */
     }
 }

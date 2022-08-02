@@ -83,6 +83,12 @@
     transform: translate(-50%, -50%);
 }
 
+@media screen and (max-width: 1550px) {
+    .questionMainContainer {
+        margin-top: 17rem;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     .questionMainContainer {
         height: 200px;
@@ -100,5 +106,17 @@
     }    
     .questionText {
         font-size: 1.15rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .questionMainContainer {
+        margin-top: 80rem;
+    }    
+}
+
+@media screen and (max-width: 800px) {
+    .questionMainContainer {
+        margin-top: 55rem;
     }
 }

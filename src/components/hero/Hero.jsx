@@ -45,9 +45,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div>
+     <div>
         <p>width: {windowSize.innerWidth}</p>
-      </div>
+      </div> 
 
       <PopupWidget
         url="https://calendly.com/nathangusky13/30min?month=2022-07"

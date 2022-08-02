@@ -8,9 +8,9 @@ import Everyone from "../../images/Everyone.jpg";
 const Help = () => {
   return (
     <div className="helpMainContainer">
-      <div className="helpTitle">
+      {/* <div className="helpTitle">
         <h2>Helping Hand</h2>
-      </div>
+      </div> */}
 
       <div className="helpingCards">
         <div className="helpingCard">

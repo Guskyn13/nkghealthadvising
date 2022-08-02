@@ -48,6 +48,14 @@ const GetInTouch = () => {
           </div>
         </div>
       </div>
+
+      {/* <PopupWidget
+        url="https://calendly.com/nathangusky13/30min?month=2022-07"
+        rootElement={document.getElementById("root")}
+        text="Schedule With Me!"
+        textColor="#000"
+        color="#00ff00"
+      /> */}
     </div>
   );
 };
