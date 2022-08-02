@@ -59,18 +59,18 @@ li {
     color: #28004d;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1525px) {
     .main-container {
-        height: 75px;
-    }  
-    .logoContainer {
-        padding-top: 0px;
+        height: 100px;
     }
     .logo {
-        height: 75px;
-        width: 100px;
-    }    
-    .link {
-        font-size: 1.5rem;
+        height: 100px;
+        width: 125px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #navBar {
+        display: none;
     }
 }
