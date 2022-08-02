@@ -148,10 +148,14 @@
 }
 
 @media screen and (max-width: 650px) {
-
-}
-
-@media screen and (max-width: 500px) {
+    .profilePicContainer {
+        height: 455px;
+        width: 415px;
+    }
+    .profilePic {
+        height: 425px;
+        border-radius: 20px;
+    }
     .initials {
         width: 75%;
     }
