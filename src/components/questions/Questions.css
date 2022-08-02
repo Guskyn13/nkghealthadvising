@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 1550px) {
     .questionMainContainer {
-        margin-top: 17rem;
+        margin-top: 25rem;
     }
 }
 
@@ -111,12 +111,12 @@
 
 @media screen and (max-width: 1200px) {
     .questionMainContainer {
-        margin-top: 80rem;
+        margin-top: 85rem;
     }    
 }
 
 @media screen and (max-width: 800px) {
     .questionMainContainer {
-        margin-top: 55rem;
+        margin-top: 60rem;
     }
 }
