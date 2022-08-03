@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Hero.css";
 import { PopupWidget } from "react-calendly";
 import Me from "../../images/ProfilePic.jpg";
+import Calendly from "../calendly/Calendly";
 
 const Hero = () => {
   const [windowSize, setWindowSize] = useState(getWindowSize());
@@ -45,17 +46,11 @@ const Hero = () => {
         </div>
       </div>
 
-     <div>
+     {/* <div>
         <p>width: {windowSize.innerWidth}</p>
-      </div> 
+      </div>  */}
 
-      <PopupWidget
-        url="https://calendly.com/nathangusky13/30min?month=2022-07"
-        rootElement={document.getElementById("root")}
-        text="Schedule With Me!"
-        textColor="#000"
-        color="#00ff00"
-      />
+      <Calendly />
     </>
   );
 };
