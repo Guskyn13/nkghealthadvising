@@ -11,10 +11,12 @@ const Questions = () => {
           <p className="questionInfo">Available 24 hours/day 7 days/week</p>
 
           <div className="questionBox">
+            <div className="centerBox">
             <img className="questionHelpImage" src={CallMe} alt="Call Me" />
 
             <div className="questionOverlay">
               <div className="questionText">(850) 556.3452</div>
+            </div>
             </div>
           </div>
         </div>

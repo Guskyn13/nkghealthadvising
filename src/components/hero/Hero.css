@@ -6,6 +6,7 @@
     align-items: center;
     font-family: 'Uchen', serif;
     padding-top: 8rem;
+    margin-bottom: 2rem;
 }
 .profilePicContainer {
     height: 575px;
@@ -63,10 +64,7 @@
     font-weight: 400;
 }
 
-@media screen and (max-width: 1700px) {
-    .heroMainContainer {
-        padding-top: 6rem;
-    }
+@media screen and (max-width: 1800px) {
     .profilePicContainer {
         height: 525px;
         width: 525px;
@@ -75,13 +73,17 @@
         height: 500px;
     }
     .comapanyTitle {
-        width: 90%;
-        font-size: 3.5rem;
+        width: 78%;
+        font-size: 3rem;
         border-bottom: 2px solid #000;
     }
     .companyInitials {
-        font-size: 6.5rem;
+        font-size: 5.5rem;
         font-weight: 600;
+    }
+    .companyDesc {
+        font-size: 1.75rem;
+        width: 75%;
     }
 }
 
@@ -97,10 +99,10 @@
 
 @media screen and (max-width: 1525px) {
     .heroMainContainer {
-        height: calc(100vh - 100px);
+        height: 100vh;
         width: 100vw;
         flex-direction: column;
-        padding-top: 10rem;
+        /* padding-top: 10rem; */
     }
     .profilePicContainer {
         height: 350px;
@@ -129,9 +131,19 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .heroMainContainer {
+        padding-bottom: 4rem;
         padding-top: 0rem;
+        height: 100vh;
+    }
+    .profilePicContainer {
+        height: 275px;
+        width: 275px;
+    }
+    .profilePic {
+        height: 250px;
+        width: 250px;
     }
     .initials {
         width: 85%;
@@ -150,32 +162,7 @@
     }
 }
 
-@media screen and (max-width: 650px) {
-    .profilePicContainer {
-        height: 455px;
-        width: 415px;
-    }
-    .profilePic {
-        height: 425px;
-        border-radius: 20px;
-    }
-    .initials {
-        width: 75%;
-    }
-    .comapanyTitle {
-        width: 55%;
-        font-size: 1.75rem;
-    }
-    .companyInitials {
-        font-size: 3rem;
-    }    
-    .companyDesc {
-        width: 45%;
-        font-size: 1.25rem;
-    }
-}
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     .heroMainContainer {
         height: 100vh;
         width: 100vw;
@@ -185,10 +172,6 @@
         height: 275px;
         width: 275px;
         padding: 15px;
-    }
-    .profilePic {
-        height: 250px;
-        width: 250px;
     }
     .companyName {
         height: 275px;

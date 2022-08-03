@@ -47,9 +47,9 @@ const Hero = () => {
       <Calendly />
       </div>
 
-     <div>
+     {/* <div>
         <p>width: {windowSize.innerWidth}</p>
-      </div> 
+      </div>  */}
 
     </>
   );
