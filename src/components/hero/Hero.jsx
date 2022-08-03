@@ -1,27 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Hero.css";
-import { PopupWidget } from "react-calendly";
 import Me from "../../images/ProfilePic.jpg";
 import Calendly from "../calendly/Calendly";
 
 const Hero = () => {
-  const [windowSize, setWindowSize] = useState(getWindowSize());
-
-  function getWindowSize() {
-    const {innerWidth, innerHeight} = window;
-    return {innerWidth, innerHeight};
-  }
-
-  useEffect(() => {
-    function handleWindowResize() {
-      setWindowSize(getWindowSize());
-    }
-    window.addEventListener('resize', handleWindowResize);
-
-    return () => {
-      window.removeEventListener('resize', handleWindowResize);
-    };
-  }, []);
 
   return (
     <>
@@ -46,11 +28,6 @@ const Hero = () => {
         </div>
       <Calendly />
       </div>
-
-     {/* <div>
-        <p>width: {windowSize.innerWidth}</p>
-      </div>  */}
-
     </>
   );
 };
