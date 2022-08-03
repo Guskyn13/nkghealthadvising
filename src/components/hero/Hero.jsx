@@ -44,13 +44,13 @@ const Hero = () => {
             navigate the healthcare system together!
           </p>
         </div>
+      <Calendly />
       </div>
 
-     {/* <div>
+     <div>
         <p>width: {windowSize.innerWidth}</p>
-      </div>  */}
+      </div> 
 
-      <Calendly />
     </>
   );
 };

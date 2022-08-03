@@ -98,24 +98,27 @@
 @media screen and (max-width: 1525px) {
     .heroMainContainer {
         height: calc(100vh - 100px);
+        width: 100vw;
         flex-direction: column;
-        padding-top: 8rem;
+        padding-top: 10rem;
     }
     .profilePicContainer {
-        height: 400px;
-        width: 400px;
-    }    
-    .profilePic {
         height: 350px;
         width: 350px;
+        padding: 15px;
+    }    
+    .profilePic {
+        height: 325px;
+        width: 325px;
     }
     .companyName {
-        padding-top: 2rem;
-    } 
+        padding-top: 2.2rem;
+    }
     .comapanyTitle {
         width: 75%;
+        height: 50px;
         font-size: 3rem;
-        border-bottom: 2px solid #000;
+        border-bottom: 1px solid #000;
     }
     .companyInitials {
         font-size: 5rem;
