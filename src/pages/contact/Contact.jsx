@@ -3,7 +3,7 @@ import "./Contact.css";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { MdPhonelinkRing } from "react-icons/md";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
 import { motion } from 'framer-motion'
@@ -81,6 +81,7 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/nathankgusky/">
                   <FaLinkedin className="contactLinkIcons" />
                 </a>
+                <a href="https://www.facebook.com/NKG-Health-Advising-106172395519990"><FaFacebookSquare className="contactLinkIcons" /></a>
               </li>
             </ul>
           </div>

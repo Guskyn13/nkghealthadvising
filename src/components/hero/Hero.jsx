@@ -1,9 +1,11 @@
 import React from "react";
 import "./Hero.css";
-import { PopupWidget } from "react-calendly";
 import Me from "../../images/ProfilePic.jpg";
+import Calendly from "../calendly/Calendly";
+import Width from '../../components/windowWidth/WindowWidth'
 
 const Hero = () => {
+
   return (
     <>
       <div className="heroMainContainer">
@@ -21,19 +23,13 @@ const Hero = () => {
           <p className="companyDesc">
             Are your kids clumsy? Are you? Concerned about your future health?
             Concerned about a loved one's health? I am here to provide you and
-            your family with personalized guidance and ongoing support. Let’s
+            your family with personalized guidance and ongoing support. Lets
             navigate the healthcare system together!
           </p>
         </div>
+        <Width />
+      <Calendly />
       </div>
-
-      <PopupWidget
-        url="https://calendly.com/nathangusky13/30min?month=2022-07"
-        rootElement={document.getElementById("root")}
-        text="Schedule With Me!"
-        textColor="#000"
-        color="#00ff00"
-      />
     </>
   );
 };

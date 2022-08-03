@@ -2,23 +2,74 @@
     position: fixed;
     top: 0;
     width: 100%;
-    transition: top 0.1s;
+    transition: 0.5s;
     z-index: 100;
 }
 
-.main-container {
+.Navbar {
+    padding: 0px 25px;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLink {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 25px;
+    /* padding: 10px 0; */
+    position: relative;
+}
+
+.navLink:hover {
+    color: #f9004d;
+}
+.navLink:hover {
+    opacity: 1;
+}
+.navLink::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background: #f9004d;
+    transition: all 0.5s;
+}
+.navLink:hover::before {
+    width: 100%;
+}
+.nav-toggle {
+    display: none;
+}
+
+/* .navContainer {
     height: 150px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-family: 'Uchen', serif;
-}
+} */
 
-.logoContainer {
+/* .main-container { */
+    /* height: 150px; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Uchen', serif; */
+/* } */
+
+/* .nav-toggle {
+    display: none;
+} */
+
+/* .logoContainer {
     width: 33.3%;
     display: flex;
     justify-content: center;
-}
+} */
 
 .logo {
     height: 125px;
@@ -31,35 +82,28 @@
     width: 33.3%;
     text-decoration: none;
 }
-
+/* 
 .navLink {
     list-style: none;
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
     font-weight: 600;
-}
+} */
 
-li {
-    list-style: none;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    font-weight: bolder;
-}
-
-.linksContainer {
+/* .linksContainer {
     display: flex;
     justify-content: center;
     width: 33.3%;
-}
+} */
 
-.link {
+/* .link {
     font-size: 2rem;
     margin: 0 10px;
     color: #28004d;
 }
 
-@media screen and (max-width: 376px) {
+/* @media screen and (max-width: 376px) {
     #navBar {
         display: none;
     }
@@ -116,14 +160,13 @@ li {
         margin: 0 10px;
         color: #28004d;
     }
-}
-@media screen and (max-width: 600px) {}
-@media screen and (max-width: 800px) {
+} */
+/* @media screen and (max-width: 800px) {
     #navBar {
         display: none;
     }
-}
-@media screen and (max-width: 1000px) {
+} */
+/* @media screen and (max-width: 1000px) {
     #navBar {
         position: fixed;
         top: 0;
@@ -185,20 +228,90 @@ li {
         color: #28004d;
     }
 }
-@media screen and (max-width: 1500px) {}
 
 @media screen and (max-width: 1300px) {
     .main-container {
-        height: 75px;
-    }  
-    .logoContainer {
-        padding-top: 0px;
+        height: 100px;
     }
     .logo {
-        height: 75px;
-        width: 100px;
-    }    
-    .link {
-        font-size: 1.5rem;
+        height: 100px;
+        width: 125px;
+    }
+} */
+
+@media screen and (max-width: 900px) {
+    .nav-items {
+        position: absolute;
+        top: 60px;
+        display: flex;
+        padding-top: 100px;
+        flex-direction: column;
+        background: #000;
+        left: 0;
+        width: 50vw;
+        height: 100vh;
+        transform: translateX(-100%);
+        transition: all 0.5s;
+    }
+    .navLink {
+        /* padding-left: 185px; */
+        margin: 18px;
+        font-size: 20px;
+        background: none;
+        color: #fff;
+    }
+    .navLink::before {
+        background-color: transparent;
+    }
+    .nav-items.open {
+        transform: translateX(0);
+        color: #fff;
+    }
+    .nav-toggle {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .bar {
+        position: relative;
+        width: 32px;
+        height: 2px;
+        background: #fff;
+        transition: all 0.5s ease-in-out;
+    }
+    .bar::before,
+    .bar::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 2px;
+        transition: all 0.5s ease-in-out;
+    }
+    .bar::before {
+        width: 25px;
+        transform: translateX(-8px);
+        right: 0;
+    }
+    .bar::after {
+        width: 32px;
+        transform: translateY(8px);
+    }
+    .nav-toggle.open>.bar {
+        transform: translateX(-40px);
+        background: transparent;
+    }
+    .nav-toggle.open>.bar::before {
+        width: 32px;
+        transform: rotate(45deg) translate(26px, -26px);
+    }
+    .nav-toggle.open>.bar::after {
+        transform: rotate(-45deg) translate(26px, 26px);
+    }
+    .logo {
+        width: 170px;
     }
 }
