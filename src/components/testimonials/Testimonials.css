@@ -12,3 +12,8 @@
     color: #28004d;
     padding-top: 3rem;
 }
+
+@media screen and (max-width: 600px) {}
+@media screen and (max-width: 800px) {}
+@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 1500px) {}

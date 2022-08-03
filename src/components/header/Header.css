@@ -59,6 +59,134 @@ li {
     color: #28004d;
 }
 
+@media screen and (max-width: 376px) {
+    #navBar {
+        display: none;
+    }
+    
+    .main-container {
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Uchen', serif;
+    }
+    
+    .logoContainer {
+        width: 33.3%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logo {
+        height: 125px;
+        width: 175px;
+    }
+    
+    .listContainer {
+        display: flex;
+        justify-content: space-evenly;
+        width: 33.3%;
+        text-decoration: none;
+    }
+    
+    .navLink {
+        list-style: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 600;
+    }
+    
+    li {
+        list-style: none;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    
+    .linksContainer {
+        display: flex;
+        justify-content: center;
+        width: 33.3%;
+    }
+    
+    .link {
+        font-size: 2rem;
+        margin: 0 10px;
+        color: #28004d;
+    }
+}
+@media screen and (max-width: 600px) {}
+@media screen and (max-width: 800px) {
+    #navBar {
+        display: none;
+    }
+}
+@media screen and (max-width: 1000px) {
+    #navBar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        transition: top 0.1s;
+        z-index: 100;
+    }
+    
+    .main-container {
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Uchen', serif;
+    }
+    
+    .logoContainer {
+        width: 33.3%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logo {
+        height: 125px;
+        width: 175px;
+    }
+    
+    .listContainer {
+        display: flex;
+        justify-content: space-evenly;
+        width: 33.3%;
+        text-decoration: none;
+    }
+    
+    .navLink {
+        list-style: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 600;
+    }
+    
+    li {
+        list-style: none;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    
+    .linksContainer {
+        display: flex;
+        justify-content: center;
+        width: 33.3%;
+    }
+    
+    .link {
+        font-size: 2rem;
+        margin: 0 10px;
+        color: #28004d;
+    }
+}
+@media screen and (max-width: 1500px) {}
+
 @media screen and (max-width: 1300px) {
     .main-container {
         height: 75px;
