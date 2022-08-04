@@ -109,6 +109,12 @@
     }
 }
 
+@media screen and (max-width: 1300px) {
+    .questionMainContainer {
+        margin-top: 25rem;
+    }
+}
+
 /* @media screen and (max-width: 900px) {
     .questionWhiteContainer {
         width: 375px;

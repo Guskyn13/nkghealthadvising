@@ -110,6 +110,12 @@
     }
 }
 
+@media screen and (max-width: 1300px) {
+    .gitContainer {
+        width: 100%;
+    }
+}
+
 /* @media screen and (max-width: 1300px) {
     .gitMainContainer {
         height: 600px;

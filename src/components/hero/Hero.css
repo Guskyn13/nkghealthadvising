@@ -64,9 +64,6 @@
 }
 
 @media screen and (max-width: 1700px) {
-    .heroRandomDiv {
-        width: 100%;
-    }
     .profilePicContainer {
         height: 375px;
         width: 375px;
@@ -91,19 +88,37 @@
 
 @media screen and (max-width: 1300px) {
     .profilePicContainer {
-        height: 400px;
-        width: 400px;
+        height: 350px;
+        width: 350px;
     }
     .profilePic {
-        height: 350px;
+        height: 325px;
+    }
+    .companyName {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 300px;
+        width: 600px;
+    }
+    .initials {
+        height: 40px;
+        margin-bottom: 0rem;
     }
     .comapanyTitle {
-        width: 60%;
-        font-size: 3rem;
+        width: 75%;
+        font-size: 2rem;
+        height: 35px;
+        border-bottom: 1px solid #000;
+    }
+    .companyInitials {
+        font-size: 4rem;
     }
     .companyDesc {
-        width: 60%;
-        font-size: 1.9rem;
+        width: 75%;
+        font-size: 1.3rem;
     }
 }
 

@@ -104,6 +104,16 @@
     }
 }
 
+@media screen and (max-width: 1300px) {
+    .navbar>.nav-items>.navLink {
+        font-size: 1.4rem;
+        margin: 0px 18px;
+    }
+    .link {
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width: 1100px) {
     .navContainer {
         width: 100%;
