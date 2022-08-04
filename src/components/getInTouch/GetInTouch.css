@@ -1,6 +1,6 @@
 .gitMainContainer {
     width: 100%;
-    height: 750px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -13,7 +13,6 @@
     align-items: center;
     justify-content: space-evenly;
 }
-
 .containerLeftSide {
     height: 500px;
     width: 400px;
@@ -21,7 +20,6 @@
     border-radius: 20px;
     box-shadow: 5px 5px 20px black;
 }
-
 .containerRightSide {
     height: 500px;
     width: 400px;
@@ -33,7 +31,6 @@
     border-radius: 20px;
     box-shadow: 5px 5px 20px black;
 }
-
 .rightSideTitle {
     color: #28004d;
     font-size: 2.3rem;
@@ -55,7 +52,7 @@
     text-align: center;
     line-height: 1.5;
     font-size: 1.3rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     background: none;
 }
 

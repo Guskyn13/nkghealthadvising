@@ -8,7 +8,6 @@ const Hero = () => {
 
   return (
       <div className="heroMainContainer">
-        <div className="heroRandomDiv">
           <div className="profilePicContainer">
             <img src={Me} alt="Profile" className="profilePic" />
           </div>
@@ -29,7 +28,6 @@ const Hero = () => {
             <Width />
           </div>
           <Calendly />
-        </div>
       </div>
   );
 };
