@@ -7,7 +7,6 @@ import Width from '../../components/windowWidth/WindowWidth'
 const Hero = () => {
 
   return (
-    <>
       <div className="heroMainContainer">
         <div className="heroRandomDiv">
           <div className="profilePicContainer">
@@ -32,7 +31,6 @@ const Hero = () => {
           <Calendly />
         </div>
       </div>
-    </>
   );
 };
 

@@ -6,15 +6,14 @@
     z-index: 100;
 }
 .main-container {
-    height: 125px;
+    height: 100px;
 }
 .navContainer {
     background: none;
 }
 .navbar {
-    background-color: aqua;
     padding: 0px 25px;
-    height: 175px;
+    height: 150px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -22,9 +21,10 @@
 .logo {
     height: 150px;
     width: 200px;
+    background: none;
 }
 .navbar>.nav-items>.navLink {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin: 25px;
     position: relative;
     opacity: 0.8;
@@ -64,15 +64,17 @@
     font-weight: 600;
 }
 .linksContainer {
+    height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     background: none;
 }
 .linksContainer a {
     background: none;
 }
 .link {
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0 25px;
     color: #000;
     background: none;
