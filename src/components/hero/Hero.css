@@ -124,21 +124,70 @@
 
 @media screen and (max-width: 1000px) {
     .profilePicContainer {
-        height: 400px;
-        width: 400px;
+        height: 325px;
+        width: 325px;
     }
     .profilePic {
-        height: 350px;
+        height: 300px;
+    }
+    .companyName {
+        height: 300px;
+        width: 500px;
+    }
+    .initials {
+        height: 30px;
     }
     .comapanyTitle {
-        width: 60%;
+        width: 75%;
+        font-size: 1.8rem;
+        height: 30px;
+    }
+    .companyInitials {
         font-size: 3rem;
     }
     .companyDesc {
-        width: 60%;
-        font-size: 1.9rem;
+        width: 75%;
+        font-size: 1.1rem;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .heroMainContainer {
+        flex-direction: column;
+    }
+    .profilePicContainer {
+        height: 300px;
+        width: 300px;
+    }
+    .profilePic {
+        height: 275px;
+    }
+    .companyName {
+        height: 200px;
+        width: 900px;
+    }
+    .initials {
+        height: 50px;
+        margin-bottom: 0rem;
+    }
+    .comapanyTitle {
+        width: 50%;
+        font-size: 2rem;
+        height: 45px;
+    }
+    .companyInitials {
+        font-size: 4rem;
+    }
+    .companyDesc {
+        width: 50%;
+    }
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 376px) {
     .heroMainContainer {
@@ -193,38 +242,6 @@
         font-size: 1.35rem;
         font-weight: 600;
         background-color: aqua;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .heroMainContainer {
-        /* padding-bottom: 4rem; */
-        padding-top: 0rem;
-        height: 100vh;
-    }
-    .profilePicContainer {
-        height: 275px;
-        width: 275px;
-    }
-    .profilePic {
-        height: 250px;
-        width: 250px;
-    }
-    .initials {
-        width: 85%;
-    }
-    .comapanyTitle {
-        width: 58%;
-        font-size: 2rem;
-        line-height: 1;
-    }
-
-    .companyInitials {
-        font-size: 4rem;
-    }    
-    .companyDesc {
-        width: 65%;
-        font-size: 1.5rem;
     }
 }
 

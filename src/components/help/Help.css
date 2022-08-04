@@ -135,32 +135,41 @@
     }
 }
 
-/* @media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     .helpMainContainer {
-        height: 1475px;
+        width: 100%;
+        height: 950px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .helpingCards {
-        grid-template-columns: 300px;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
     }
     .helpingCard {
-        height: 400px;
-        width: 375px;
-    }
-} */
-
-/* @media screen and (max-width: 900px) {
-    .helpMainContainer {
-        height: 1250px;
-    }
-    .helpingCards {
-        height: auto;
-        width: auto;
-    }
-    .helpingCard {
-        height: 350px;
         width: 325px;
     }
-} */
+    .helpingCardOverlay:hover {
+        opacity: 0.8;
+        transition: 0.5s ease;
+        width: 100%;
+        height: 100%;
+    }
+    .text {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        width: 325px;
+        padding: 2rem 1rem 0 1rem;
+    }
+    .helpingCardTitle {
+        font-size: 2.2rem;
+    }
+}
 
 /* @media screen and (max-width: 400px) {
     .helpMainContainer {

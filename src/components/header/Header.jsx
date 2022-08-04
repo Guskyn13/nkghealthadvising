@@ -39,6 +39,9 @@ const Header = () => {
             <NavLink className='navLink' style={navLinkStyle} to="/services">Services</NavLink>
             <NavLink className='navLink' style={navLinkStyle} to="/about">About</NavLink>
             <NavLink className='navLink' style={navLinkStyle} to="/contact">Contact</NavLink>
+            <div>
+              <img src={Logo} alt="Logo" className='logo2' />
+            </div>
           </div>
           <div id='linksContainer'>
             <a href="https://www.facebook.com/NKG-Health-Advising-106172395519990" className='link'><FaFacebookSquare className='icon' /></a>
