@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 2000px) {
     .heroMainContainer {
-        height: calc(100vh - 50px);
+        height: 100vh;
     }
     .profilePicContainer {
         height: 550px;

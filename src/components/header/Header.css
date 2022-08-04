@@ -6,12 +6,13 @@
     z-index: 100;
 }
 .main-container {
-    height: 175px;
+    height: 125px;
 }
 .navContainer {
     background: none;
 }
 .navbar {
+    background-color: aqua;
     padding: 0px 25px;
     height: 175px;
     display: flex;
