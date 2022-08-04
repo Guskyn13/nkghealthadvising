@@ -25,7 +25,7 @@ const Hero = () => {
               your family with personalized guidance and ongoing support. Lets
               navigate the healthcare system together!
             </p>
-            <Width />
+            {/* <Width /> */}
           </div>
           <Calendly />
       </div>
