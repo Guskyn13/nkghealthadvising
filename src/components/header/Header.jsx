@@ -12,7 +12,6 @@ const Header = () => {
 
   const navLinkStyle = ({ isActive }) => {
     return {
-      // textDecoration: isActive ? "underline" : "none",
       color: isActive ? "#28004d" : "#000",
     }
   }

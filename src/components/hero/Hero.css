@@ -154,10 +154,12 @@
 @media screen and (max-width: 900px) {
     .heroMainContainer {
         flex-direction: column;
+        padding-bottom: 10rem;
     }
     .profilePicContainer {
         height: 300px;
         width: 300px;
+        margin-bottom: 10rem;
     }
     .profilePic {
         height: 275px;
@@ -186,11 +188,13 @@
 @media screen and (max-width: 500px) {
     .heroMainContainer {
         height: 90vh;
+        padding-bottom: 0rem;
     }
     .profilePicContainer {
         height: 275px;
         width: 275px;
         padding: 15px;
+        margin-bottom: 3rem;
     }
     .profilePic {
         height: 250px;

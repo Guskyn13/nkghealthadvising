@@ -266,15 +266,12 @@
 }
 
 @media screen and (max-width: 700px) {
-    .logo {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 500px) {
     .navbar {
         height: 100px;
         display: flex;
         justify-content: flex-end;
-    }        
+    }
+    .logo {
+        display: none;
+    }
 }
