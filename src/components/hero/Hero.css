@@ -1,16 +1,19 @@
 .heroMainContainer {
-    height: calc(100vh - 50px);
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Uchen', serif;
-    padding-top: 8rem;
-    margin-bottom: 2rem;
+}
+.heroRandomDiv {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .profilePicContainer {
-    height: 575px;
-    width: 575px;
+    height: 675px;
+    width: 675px;
     background-image: url("../../images/67278.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -22,7 +25,7 @@
     margin: 0 75px;
 }
 .profilePic {
-    height: 550px;
+    height: 625px;
     border-radius: 20px;
 }
 .companyName {
@@ -32,20 +35,21 @@
     align-items: center;
     text-align: center;
     height: 300px;
-    width: 900px;
+    width: 1050px;
 }
 .initials {
     text-transform: uppercase;
     text-align: center;
-    width: 93%;
+    width: 100%;
     display: flex;
     justify-content: center;
     height: 70px;
+    margin-bottom: 1.5rem;
 }
 .comapanyTitle {
     width: 100%;
     background: none;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 400;
     display: flex;
     align-items: center;
@@ -53,16 +57,168 @@
 }
 .companyInitials {
     color: #28004d;
-    font-size: 7rem;
+    font-size: 8rem;
     font-weight: 900;
 }
 .companyDesc {
     text-align: center;
     width: 90%;
     line-height: 1.5;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 400;
 }
+
+@media screen and (max-width: 2700px) {
+    .heroRandomDiv {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+    .heroMainContainer {
+        height: calc(100vh - 50px);
+    }
+    .profilePicContainer {
+        height: 550px;
+        width: 550px;
+    }
+    .profilePic {
+        height: 500px;
+    }
+    .comapanyTitle {
+        width: 80%;
+        font-size: 4rem;
+        border-bottom: 3px solid #000;
+    }
+    .companyInitials {
+        font-size: 7rem;
+    }
+    .companyDesc {
+        text-align: center;
+        width: 80%;
+        line-height: 1.3;
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .heroRandomDiv {
+        width: 95%;
+    }
+    .profilePicContainer {
+        height: 500px;
+        width: 500px;
+    }
+    .profilePic {
+        height: 450px;
+    }
+    .comapanyTitle {
+        width: 68%;
+        font-size: 3rem;
+        border-bottom: 2px solid #000;
+    }
+    .companyInitials {
+        font-size: 6rem;
+    }
+    .companyDesc {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .heroRandomDiv {
+        width: 100%;
+        flex-direction: column;
+    }
+    .profilePicContainer {
+        height: 550px;
+        width: 550px;
+        margin-bottom: 4rem;
+    }
+    .profilePic {
+        height: 500px;
+    }
+    .companyName {
+        height: 300px;
+        width: 1050px;
+    }
+    .comapanyTitle {
+        width: 90%;
+        font-size: 4.5rem;
+        border-bottom: 3px solid #000;
+    }
+    .companyInitials {
+        font-size: 7rem;
+        font-weight: 800;
+    }
+    .companyDesc {
+        width: 80%;
+        line-height: 1.3;
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .profilePicContainer {
+        height: 450px;
+        width: 450px;
+        margin-bottom: 4rem;
+    }
+    .profilePic {
+        height: 400px;
+    }
+    .comapanyTitle {
+        width: 67%;
+        font-size: 3.5rem;
+        border-bottom: 2px solid #000;
+    }
+    .companyInitials {
+        font-size: 5rem;
+    }
+    .companyDesc {
+        width: 70%;
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .profilePicContainer {
+        height: 400px;
+        width: 400px;
+    }
+    .profilePic {
+        height: 350px;
+    }
+    .comapanyTitle {
+        width: 60%;
+        font-size: 3rem;
+    }
+    .companyDesc {
+        width: 60%;
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .profilePicContainer {
+        height: 400px;
+        width: 400px;
+    }
+    .profilePic {
+        height: 350px;
+    }
+    .comapanyTitle {
+        width: 60%;
+        font-size: 3rem;
+    }
+    .companyDesc {
+        width: 60%;
+        font-size: 1.9rem;
+    }
+}
+
+
+
 
 @media screen and (max-width: 376px) {
     .heroMainContainer {
@@ -117,145 +273,6 @@
         font-size: 1.35rem;
         font-weight: 600;
         background-color: aqua;
-    }
-}
-
-@media screen and (max-width: 600px) {}
-
-@media screen and (max-width: 800px) {}
-
-@media screen and (max-width: 1000px) {
-    .heroMainContainer {
-        padding-top: 5rem;
-    }
-    
-    .profilePicContainer {
-        height: 475px;
-        width: 475px;
-        /* background-image: url("../../images/67278.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 20px; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 75px;
-    }
-    
-    .profilePic {
-        height: 350px;
-        border-radius: 20px;
-    }
-    
-    .companyName {
-        height: 300px;
-        width: 700px;
-        text-transform: uppercase;
-    }
-    
-    .initials {
-        height: 100px;
-        background-color: aqua;
-    }
-    
-    .comapanyTitle {
-        background: none;
-        font-size: 1.5rem;
-        display: flex;
-        align-items: center;
-        border-bottom: 2px solid #000;
-    }
-    
-    .companyInitials {
-        color: #28004d;
-        font-size: 2rem;
-    }
-    
-    .companyDesc {
-        line-height: 1.75;
-        font-size: 1.35rem;
-        font-weight: 600;
-    }
-}
-
-@media screen and (max-width: 1500px) {}
-
-@media screen and (max-width: 1300px) {
-    .profilePicContainer {
-        height: 525px;
-        width: 525px;
-    }
-
-    .profilePic {
-        height: 350px;
-    }
-
-    .companyName {
-        width: 425px;
-        text-transform: none;
-    }
-
-    .initials {
-        height: 75px;
-    }
-
-    .comapanyTitle {
-        width: 78%;
-        font-size: 3rem;
-        border-bottom: 2px solid #000;
-    }
-    .companyInitials {
-        font-size: 5.5rem;
-        font-weight: 600;
-    }
-    .companyDesc {
-        font-size: 1.75rem;
-        width: 75%;
-    }
-}
-
-@media screen and (max-width: 1550px) {
-    .comapanyTitle {
-        width: 80%;
-        font-size: 2.75rem;
-    }
-    .companyDesc {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 1525px) {
-    .heroMainContainer {
-        height: 100vh;
-        width: 100vw;
-        flex-direction: column;
-        /* padding-top: 10rem; */
-    }
-    .profilePicContainer {
-        height: 350px;
-        width: 350px;
-        padding: 15px;
-    }    
-    .profilePic {
-        height: 325px;
-        width: 325px;
-    }
-    .companyName {
-        padding-top: 2.2rem;
-    }
-    .comapanyTitle {
-        width: 75%;
-        height: 50px;
-        font-size: 3rem;
-        border-bottom: 1px solid #000;
-    }
-    .companyInitials {
-        font-size: 5rem;
-    }    
-    .companyDesc {
-        width: 80%;
-        font-size: 1.5rem;
     }
 }
 

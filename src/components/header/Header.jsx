@@ -12,7 +12,7 @@ const Header = () => {
 
   const navLinkStyle = ({ isActive }) => {
     return {
-      textDecoration: isActive ? "underline" : "none",
+      // textDecoration: isActive ? "underline" : "none",
       color: isActive ? "#28004d" : "#000",
     }
   }
@@ -32,18 +32,18 @@ const Header = () => {
   return (
     <div className='main-container' id='navBar'>
       <div className='navContainer'>
-        <div className='header Navbar'>
+        <div className='header navbar'>
           <img src={Logo} alt="Logo" className='logo' />
           <div className={`nav-items ${isOpen && "open"}`}>
             <NavLink className='navLink' style={navLinkStyle} to="/">Home</NavLink>
-            {/* <NavLink className='navLink' style={navLinkStyle} to="/services">Services</NavLink> */}
-            {/* <NavLink className='navLink' style={navLinkStyle} to="/about">About</NavLink> */}
+            <NavLink className='navLink' style={navLinkStyle} to="/services">Services</NavLink>
+            <NavLink className='navLink' style={navLinkStyle} to="/about">About</NavLink>
             <NavLink className='navLink' style={navLinkStyle} to="/contact">Contact</NavLink>
           </div>
-          {/* <div id='linksContainer' className={`nav-items ${isOpen && "open"}`}>
-            <a href="https://www.facebook.com/NKG-Health-Advising-106172395519990" className='link'><FaFacebookSquare /></a>
-            <a href="https://www.linkedin.com/in/nathankgusky/" className='link'><FaLinkedin /></a>
-          </div> */}
+          <div id='linksContainer'>
+            <a href="https://www.facebook.com/NKG-Health-Advising-106172395519990" className='link'><FaFacebookSquare className='icon' /></a>
+            <a href="https://www.linkedin.com/in/nathankgusky/" className='link'><FaLinkedin className='icon' /></a>
+          </div>
           <div className={`nav-toggle ${isOpen && "open"}`}
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -52,6 +52,7 @@ const Header = () => {
         </div>
       </div>
     </div>
+
   )
 }
 
