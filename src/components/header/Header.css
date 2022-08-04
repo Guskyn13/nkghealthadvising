@@ -274,53 +274,7 @@
 @media screen and (max-width: 500px) {
     .navbar {
         height: 100px;
-        background-color: aqua;
-    }    
-    .navbar>.nav-items>.navLink::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 0;
-        height: 3px;
-        background: #28004d;
-        transition: all 0.5s;
-    }
-    
-    .navbar>.nav-items>.navLink:hover::before {
-        width: 100%;
-    }
-    
-    .navbar>.nav-toggle {
-        display: none;
-    }
-    
-    .navLink {
-        list-style: none;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #000;
-        font-size: 2.75rem;
-        font-weight: 600;
-    }
-    
-    .linksContainer {
-        height: 100%;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        background: none;
-    }
-    
-    .linksContainer a {
-        background: none;
-    }
-    
-    .link {
-        font-size: 3rem;
-        margin: 0 25px;
-        color: #000;
-        background: none;
-        opacity: 0.8;
-    }    
+        justify-content: flex-end;
+    }        
 }
