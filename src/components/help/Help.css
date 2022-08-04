@@ -65,17 +65,57 @@
     color: #fff;
 }
 
-@media screen and (max-width: 600px) {}
-@media screen and (max-width: 800px) {}
-@media screen and (max-width: 1000px) {}
-@media screen and (max-width: 1500px) {}
-
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1700px) {
     .helpMainContainer {
-        height: 550px;
+        height: 400px;
     }
     .helpingCards {
-        height: 400px;
+        margin-bottom: 5rem;
+    }
+    .helpingCard {
+        height: 250px;
+        width: 300px;
+        margin: 0 35px;
+    }
+    .text {
+        height: 250px;
+        width: 300px;
+        padding: 1rem 1rem 0 1rem;
+        font-size: 18px;
+    }
+    .helpingCardTitle {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .helpingCards {
+        justify-content: space-evenly;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 300px 375px;
+        row-gap: 25px;
+        margin-top: 35rem;
+    }
+    .helpingCard {
+        height: 350px;
+        width: 375px;
+    }
+    .helpingCardTitle {
+        font-size: 2.75rem;
+    }
+    .text {
+        font-size: 1.15rem;
+        width: 100%;
+        padding: 0.75rem 1rem 1rem 1rem;
+        font-size: 1.4rem;
+    }
+}
+
+/* @media screen and (max-width: 1300px) {
+    .helpingCards {
+        height: 1000px;
     }
     
     .helpingCard {
@@ -91,38 +131,9 @@
     .helpingCardTitle {
         font-size: 1.9rem;
     }
-}
+} */
 
-@media screen and (max-width: 1550px) {
-    .helpingCards {
-        justify-content: space-evenly;
-        width: 100%;
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 300px 300px;
-        row-gap: 50px;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-    .helpingCard {
-        height: 350px;
-        width: 350px;
-    }
-    .helpingCardTitle {
-        font-size: 1.75rem;
-    }
-    .text {
-        font-size: 1.15rem;
-        width: 100%;
-        padding: 3rem 1rem 1rem 1rem;
-        font-size: 1.25rem;
-    }
-    .helpingCardTitle {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     .helpMainContainer {
         height: 1475px;
     }
@@ -133,9 +144,9 @@
         height: 400px;
         width: 375px;
     }
-}
+} */
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
     .helpMainContainer {
         height: 1250px;
     }
@@ -147,9 +158,9 @@
         height: 350px;
         width: 325px;
     }
-}
+} */
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
     .helpMainContainer {
         height: 850px;
     }
@@ -164,4 +175,4 @@
         font-size: 1rem;
         padding: 1.5rem 0.5rem 0 0.5rem;
     }
-}
+} */

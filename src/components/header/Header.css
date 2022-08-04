@@ -49,12 +49,6 @@
 .navbar>.nav-toggle {
     display: none;
 }
-.listContainer {
-    display: flex;
-    justify-content: space-evenly;
-    width: 33.3%;
-    text-decoration: none;
-}
 .navLink {
     list-style: none;
     text-decoration: none;
@@ -88,31 +82,25 @@
     display: none;
 }
 
-@media screen and (max-width: 2000px) {
-    .navLink {
-        font-size: 2rem;
-        margin: 20px;
+@media screen and (max-width: 1700px) {
+    .navbar {
+        padding: 0px 0px;
+        height: 125px;
     }
-
-    .link {
-        font-size: 3rem;
-        margin: 0 20px;
-    }
-}
-
-@media screen and (max-width: 1500px) {
     .logo {
         height: 125px;
-        width: 150px;
+        width: 175px;
     }
-    .navLink {
-        font-size: 1.75rem;
-        margin: 10px;
+    .navbar>.nav-items>.navLink {
+        font-size: 1.5rem;
     }
-
     .link {
-        font-size: 2.75rem;
-        margin: 0 10px;
+        font-size: 2.2rem;
+        margin: 0 15px;
+    }
+    .link:hover {
+        color: #28004d;
+        opacity: 1;
     }
 }
 
