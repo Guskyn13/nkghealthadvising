@@ -333,7 +333,7 @@
 @media screen and (max-width: 375px) {
     .navbar>.nav-items {
         padding-top: 15rem;
-        height: 80vh;
+        height: 70vh;
     }
     .header {
         height: 50px;
