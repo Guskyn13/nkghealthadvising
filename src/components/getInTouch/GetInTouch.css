@@ -171,11 +171,8 @@
     }
 }
 
-/* @media screen and (max-width: 500px) {
-    .gitMainContainer {
-
+@media screen and (max-width: 500px) {
+    .rightSideLinks {
+        display: none;
     }
-    .gitContainer {
-        flex-direction: column-reverse;
-    }
-} */
+}
