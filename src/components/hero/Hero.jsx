@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import Me from "../../images/ProfilePic.jpg";
 import Calendly from "../calendly/Calendly";
-import Width from '../../components/windowWidth/WindowWidth'
+// import Width from '../../components/windowWidth/WindowWidth'
 
 const Hero = () => {
 
@@ -29,7 +29,7 @@ const Hero = () => {
               your family with personalized guidance and ongoing support. Lets
               navigate the healthcare system together!
             </p>
-            <Width />
+            {/* <Width /> */}
           </div>
         </div>
         <Calendly />

@@ -283,6 +283,14 @@
     }
 }
 
+@media screen and (max-width: 550px) {
+    .navbar>.nav-items {
+        padding-top: 20rem;
+        height: 95vh;
+        transform: translateX(-125%);
+    }
+}
+
 @media screen and (max-width: 500px) {
     .navbar {
         padding: 0px 45px;
@@ -323,6 +331,10 @@
 }
 
 @media screen and (max-width: 375px) {
+    .navbar>.nav-items {
+        padding-top: 15rem;
+        height: 80vh;
+    }
     .header {
         height: 50px;
     }

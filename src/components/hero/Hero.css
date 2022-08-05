@@ -328,6 +328,9 @@
 }
 
 @media screen and (max-width: 675px) {
+    .heroRandom {
+        margin-bottom: 4rem;
+    }
     .heroMainContainer {
         /* padding-top: 125px; */
     }
@@ -360,10 +363,6 @@
 }
 
 @media screen and (max-width: 615px) {
-    .heroRandom {
-        /* margin-top: 5rem; */
-        /* margin-bottom: 10rem; */
-    }
     .picContainer {
         height: 250px;
         width: 250px;
@@ -427,6 +426,9 @@
 }
 
 @media screen and (max-width: 400px) {
+    .heroRandom {
+        margin-bottom: 10rem;
+    }
     .comapanyTitle {
         width: 90%;
         font-size: 1.3rem;
