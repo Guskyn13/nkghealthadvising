@@ -267,8 +267,14 @@
 }
 
 @media screen and (max-width: 700px) {
-    .navbar {
+    .main-container {
+        height: 5px;
+    }
+    .header {
         height: 100px;
+    }
+    .navbar {
+        /* height: 50px; */
         display: flex;
         justify-content: flex-end;
     }
@@ -280,8 +286,11 @@
 @media screen and (max-width: 500px) {
     .navbar {
         padding: 0px 45px;
-        height: 50px;
         justify-content: space-between;
+    }
+
+    .header {
+        height: 75px;
     }
 
     .navbar>.nav-items {
@@ -310,5 +319,11 @@
         align-items: center;
         justify-content: flex-end;
         background: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        height: 50px;
     }
 }
