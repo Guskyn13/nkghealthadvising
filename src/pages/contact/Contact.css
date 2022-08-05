@@ -200,6 +200,7 @@ section::before {
 @media screen and (max-width: 1200px) {
     .contactInfo {
         display: none;
+        visibility: hidden;
     }
     .contactForm {
         position: absolute;
@@ -278,9 +279,15 @@ section::before {
 }
 
 @media screen and (max-width: 400px) {
+    section {
+        width: 100%;
+    }
+    .contactMainContainer {
+        width: 50%;
+    }
     .contactForm {
         width: calc(100vw - 50px);
-        height: 105%;
+        height: 113%;
     } 
     .contactInputBox {
         margin: 0 0 20px 0;
