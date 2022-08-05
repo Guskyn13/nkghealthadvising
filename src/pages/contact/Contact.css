@@ -196,3 +196,19 @@ section::before {
     margin-top: 25px;
     width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+    .contactInfo {
+        display: none;
+    }
+    .contactForm {
+        position: absolute;
+        padding: 70px 50px;
+        background: #e3e3e3;
+        margin-left: 75px;
+        padding-left: 75px;
+        width: calc(100% - 150px);
+        height: 100%;
+        box-shadow: 0 50px 50px rgba(0, 0, 0, 0.7);
+    }
+}

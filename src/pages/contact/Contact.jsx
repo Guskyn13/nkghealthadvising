@@ -6,6 +6,8 @@ import { MdPhonelinkRing } from "react-icons/md";
 import { FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 
+import Width from '../../components/windowWidth/WindowWidth'
+
 import { motion } from 'framer-motion'
 
 const Contact = () => {
@@ -148,6 +150,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <Width />
     </motion.div>
   );
 };
