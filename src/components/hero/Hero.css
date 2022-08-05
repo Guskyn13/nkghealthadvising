@@ -227,7 +227,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 5rem;
+        margin-top: 4rem;
     }
     .picContainer {
         height: 350px;
@@ -246,7 +246,6 @@
         text-align: center;
         height: 50%;
         width: 50%;
-        padding-bottom: 15rem;
     }
     .initials {
         height: 50px;
@@ -330,7 +329,7 @@
 
 @media screen and (max-width: 675px) {
     .heroMainContainer {
-        padding-top: 125px;
+        /* padding-top: 125px; */
     }
     .picContainer {
         height: 300px;
@@ -344,7 +343,7 @@
     .companyName {
         height: 80%;
         width: 80%;
-        padding-bottom: 8rem;
+        /* padding-bottom: 8rem; */
     }
     .comapanyTitle {
         width: 100%;
@@ -362,8 +361,8 @@
 
 @media screen and (max-width: 615px) {
     .heroRandom {
-        margin-top: 5rem;
-        margin-bottom: 10rem;
+        /* margin-top: 5rem; */
+        /* margin-bottom: 10rem; */
     }
     .picContainer {
         height: 250px;
@@ -394,6 +393,9 @@
 }
 
 @media screen and (max-width: 500px) {
+    .heroRandom {
+        margin-bottom: 7rem;
+    }
     .profilePicContainer {
         height: 225px;
         width: 225px;
@@ -411,8 +413,8 @@
         height: 35px;
     }
     .comapanyTitle {
-        width: 75%;
-        font-size: 1.5rem;
+        width: 80%;
+        font-size: 1.3rem;
         font-weight: 400;
     }
     .companyInitials {
@@ -425,12 +427,9 @@
 }
 
 @media screen and (max-width: 400px) {
-    .heroRandom {
-        margin-bottom: 11rem;
-    }
     .comapanyTitle {
-        width: 85%;
-        font-size: 1.5rem;
+        width: 90%;
+        font-size: 1.3rem;
         font-weight: 400;
     }
 }
