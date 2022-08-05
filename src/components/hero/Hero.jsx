@@ -7,19 +7,23 @@ import Width from '../../components/windowWidth/WindowWidth'
 const Hero = () => {
 
   return (
-      <div className="heroMainContainer">
-          <div className="profilePicContainer">
+    <div className="heroMainContainer">
+      <div className="heroRandom">
+        <div className="profilePicContainer">
+          <div className="picContainer">
             <img src={Me} alt="Profile" className="profilePic" />
           </div>
+        </div>
 
-          <div className="companyName">
-            <div className="initials">
-              <p className="comapanyTitle">
-                <span className="companyInitials">NKG</span>Health Advising
-              </p>
-            </div>
-            <br />
-            <p className="companyDesc">
+        <div className="companyName">
+          <div className="initials">
+            <p className="comapanyTitle">
+              <span className="companyInitials">NKG</span>Health Advising
+            </p>
+          </div>
+          {/* <br /> */}
+          <div className="companyDesc">
+            <p>
               Are your kids clumsy? Are you? Concerned about your future health?
               Concerned about a loved one's health? I am here to provide you and
               your family with personalized guidance and ongoing support. Lets
@@ -27,8 +31,10 @@ const Hero = () => {
             </p>
             <Width />
           </div>
-          <Calendly />
+        </div>
+        <Calendly />
       </div>
+    </div>
   );
 };
 
